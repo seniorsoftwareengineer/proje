@@ -1,0 +1,50 @@
+.currency-div{
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin-top:50px;
+    border:1px solid black;
+    width:450px;
+    height:160px;
+
+}
+
+.amount,.result{
+    width:80px;
+    height:25px;
+    margin-right:10px;
+}
+
+.from-currency-option,.to-currency-option{
+    width:70px;
+    height:30px;
+    margin-right:10px;
+
+}
+
+.title{margin-bottom:15px}
+
+
+.mainarea{
+
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom:15px
+
+}
+
+button{
+    width:80px;
+    height:30px;
+    margin-bottom:20px;
+    margin-top:10px;
+    background-color: red;
+    border-radius: 5px;
+    border:none;
+    color:white;
+    cursor:pointer;
+
+}
